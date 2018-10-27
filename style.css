@@ -11,7 +11,7 @@ h1, h2, h3 {
   font-weight: lighter;
 }
 h1 {
-	font-size: 30px;
+	font-size: 50px;
   color: #55b87c;
 }
 h2 {
@@ -26,15 +26,28 @@ a:hover {
   color: black;
 }
 
-
 .banner {
-  height:400px;
-  color: white;
   text-align: center;
+  color: white;
   padding: 150px 0px; 
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/chambre-hotel.jpg");
+  background-size: cover;
+  background-position: : center;
 }
-  
+ 
+.banner p {
+ opacity: 0.8
+ font-size: 30px
+ margin-bottom:60px; 
+} 
+
+.card {
+  display: inline ;
+  text-align: center;
+  padding: 16px;
+  margin: 16px 0px;
+}
+
 .perfect-circle {
   width: 200px;
   height: 200px;
