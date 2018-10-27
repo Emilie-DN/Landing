@@ -16,7 +16,7 @@ h1 {
 }
 h2 {
   font-size: 14px;
-  color: #212121;
+  color: #55b87c;
 }
 a {
   color: green;
@@ -27,16 +27,22 @@ a:hover {
 }
 
 
+.banner {
+  height:400px;
+  color: white;
+  text-align: center;
+  padding: 150px 0px; 
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/chambre-hotel.jpg");
+}
+  
 .perfect-circle {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border: 2px solid #55b87c;
-}
-
-.img-border {
-
 }    
+
+
 #logo { /* select the element with the id="logo" */
 width: 100px;
 
