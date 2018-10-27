@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  background: white;
+  color: rgb(20, 20, 20);
+  font-family: Verdana, sans-serif;
+	font-size: 18px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: Verdana;
+  font-weight: lighter;
+}
+h1 {
+	font-size: 40px;
+  color: #55b87c;
+}
+h2 {
+  font-size: 24px;
+  color: #212121;
+}
+a {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+
+.img-circle {
+    border-radius: 50%; }  
+
+.img-bordered {
+  border: 1px solid #55b87c ;
+
+}
+    
+#logo { /* select the element with the id="logo" */
+width: 1000px;
+
+}
