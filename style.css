@@ -11,11 +11,11 @@ h1, h2, h3 {
   font-weight: lighter;
 }
 h1 {
-	font-size: 40px;
+	font-size: 30px;
   color: #55b87c;
 }
 h2 {
-  font-size: 24px;
+  font-size: 14px;
   color: #212121;
 }
 a {
@@ -27,15 +27,28 @@ a:hover {
 }
 
 
-.img-circle {
-    border-radius: 50%; }  
-
-.img-bordered {
-  border: 1px solid #55b87c ;
-
+.perfect-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #55b87c;
 }
-    
+
+.img-border {
+
+}    
 #logo { /* select the element with the id="logo" */
 width: 100px;
 
 }
+
+.list-inline {
+  display: inline;
+  list-style: none;
+  padding-left: 0px;  
+}
+
+list-inline {
+  display: inline;
+  list-style: none;
+  padding-left: 0px;  
