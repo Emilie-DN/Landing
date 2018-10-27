@@ -7,7 +7,7 @@ body {
   font-weight: lighter;
 }
 h1, h2, h3 {
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
   font-weight: lighter;
 }
 h1 {
@@ -36,6 +36,6 @@ a:hover {
 }
     
 #logo { /* select the element with the id="logo" */
-width: 1000px;
+width: 100px;
 
 }
